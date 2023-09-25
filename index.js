@@ -13,6 +13,8 @@ mongoose.connect(mongoURI)
         .catch((error) => console.log(error));
 
 
+
+//listening to local server port
 app.listen(3000, ()=>{
     console.log("Server is up and running!")
 })
